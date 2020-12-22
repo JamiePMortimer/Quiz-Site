@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+/* NavBar */
+
+.nav-logo {
+  margin: 1vw;
+  color:gold;
+  font-size: 2rem;
+}
+
+.navbar {
+  width: 100vw;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: middle;
+  height: 50px;
+  font-size: 2.5rem;
+  color: ivory;
+  background-color: black;
+}
+
+/* Question Section */
+.question-section{
+  margin: 5%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.question-box {
+  border: solid 1px rgba(194, 194, 194, 0.541);
+  padding:20px;
+  border-radius: 10px;
+  margin: 5%;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+  box-shadow: 3px 3px 5px 3px rgb(158, 158, 158);
+  font-family: 'Roboto', sans-serif;
+  font-size:1.2rem;
+  font-weight: 500;
+}
+
+.answer-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.ans1,
+.ans2,
+.ans3,
+.ans4 {
+  border: 1px;
+  border-radius: 15px;
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  background-color: black;
+  color: ivory;
+  box-shadow: 2px 2px 3px 2px rgba(158, 158, 158, 0.7);
+  margin: 2% 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.ans1:hover,
+.ans2:hover,
+.ans3:hover,
+.ans4:hover{
+transform: translateY(-1px);
+box-shadow: 2px 2px 3px 2px rgba(255, 224, 48, 0.432);
+color: gold;
+}
+
+.selected{
+  border: solid 2px green;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.submit-btn{
+  font-family: 'Roboto', sans-serif;;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  border: 1px;
+  border-color: black;
+  border-radius: 50px;
+  background-color: gold;
+  color: black;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  z-index: 1;
+}
+.hide{
+  visibility: hidden;
+}
