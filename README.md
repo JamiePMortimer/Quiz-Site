@@ -9,10 +9,12 @@ Update History
 
 
 App.JS
-lines 1-5 consts to create event listeners
-lines 7-13 Questions object : To contain the questions and range of answers
-lines 16-20 Updating textConvent with relevant question and answers
-line 23-26 for loop to create event listeners on buttons
+lines 1-6 : Consts to create event listeners
+lines 8-14 : Questions object : To contain the questions and range of answers
+lines 17-21 : Updating textConvent with relevant question and answers
+line 24-29 : For loop to create event listeners on buttons and reveal submit button
+line 31-33 : Shell function to check for correct answer
+line 35 : Event listener for submit button 
 
 
 Roadmap
